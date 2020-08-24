@@ -1,0 +1,138 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+
+
+
+header, section, footer, aside,
+nav, article, figure, figcaption, hgroup
+ {
+	display: block;
+ }
+
+body {
+      text-align: center;
+}
+
+#opciones {
+     background-color: #666;
+     padding: 5px 15px;
+     height: 20px;
+}
+
+#opciones li {
+     display: inline-block;
+     list-style: none;
+     padding: 3px;
+     color: #fff;
+     float: right;
+}
+#logo{
+     
+     float: left;
+     width: 70px;
+     padding:1%;
+     clear:both;
+     margin-left: 20px;
+}
+
+
+#agrupar {
+     
+     width: 1260px;
+     margin: 15px auto;
+     text-align: left;
+}
+
+#cabecera {
+    
+     background: #211d5d;
+     border: 1px solid #999;
+     text-align: right;
+     padding: 30px;
+     color: #fff; 
+     height: 50px;
+     
+
+}
+#menu { 
+
+     background-color: #c80000;
+     margin-top: 18px;
+     width: 808px;
+     height: 50px;
+     float: right;
+}
+
+#menu li {
+     display: inline-block;
+     list-style: none;
+     padding: 10px;
+     text-align: center;
+     font: bold 20px verdana, sans-serif;
+ }
+
+#seccion {
+     float: left;
+     width: 960px;
+     margin: 20px;
+}
+
+#columna {
+     float: right;
+     width: 220px;
+     margin: 20px 0px;
+     padding: 20px;
+     background: #e6e6e6;
+}
+
+
+
+#pie {
+     clear: both;
+     justify-content: space-between;
+     padding: 20px;
+     font: bold 14px verdana, sans-serif;
+     border-top: 2px solid #999;
+     background-color: #211d5d;
+     color: #fff;
+
+}
+
+
+
+article {
+     background: #e6e6e6;
+     border: 1px solid #999;
+     padding: 20px;
+     margin-bottom: 15px;
+}
+
+article footer {
+     text-align: right;
+}
+
+time {
+     color: #999;
+}
+
+h1 {
+     font: bold 25px verdana, sans-serif;
+     color: #211d5d;
+}
+h2 {
+     background-color: #211d5d;
+     text-align: center;
+     color: #fff;
+     border-top: 2px solid #999;
+     margin-top: 3px;
+     font: bold 20px Arial Narrow, sans-serif;
+}
+h4 {
+     float: right;
+}
+p {
+     float: left;
+}
